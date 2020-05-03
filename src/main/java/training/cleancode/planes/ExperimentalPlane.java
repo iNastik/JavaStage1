@@ -27,7 +27,7 @@ public class ExperimentalPlane extends Plane {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof MilitaryPlane)) return false;
+        if (!(o instanceof ExperimentalPlane)) return false;
         if (!super.equals(o)) return false;
         ExperimentalPlane that = (ExperimentalPlane) o;
         return experimentalType == that.experimentalType;
